@@ -10,4 +10,5 @@ jobs:
         app_location: "/" # Hvis din index.html er i roden    
         output_location: "." # Hvis du ikke har en separat output-mappe    
         app_build_command: ''    
-        skip_app_build: true # Springer build-processen over    
+        skip_app_build: true # Springer build-processen over
+        app_build_command: 'npm run docs:build'
